@@ -16,8 +16,150 @@
       "destinations": [],
       "content": "A DESCRIPTION",
       "description": "asda as dasd adsa dasd asdas d"
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 2
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 3
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 4
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 5
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 6
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 7
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 8
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "people": [
+        "10216327659199502"
+      ],
+      "id": 9
     }
   ],
-  "destinations": [],
+  "destinations": [
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:48.290Z",
+      "tripId": 2,
+      "id": 1
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:48.466Z",
+      "tripId": 2,
+      "id": 2
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:48.634Z",
+      "tripId": 2,
+      "id": 3
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:48.794Z",
+      "tripId": 2,
+      "id": 4
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:48.958Z",
+      "tripId": 2,
+      "id": 5
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:49.116Z",
+      "tripId": 2,
+      "id": 6
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:49.276Z",
+      "tripId": 2,
+      "id": 7
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:49.420Z",
+      "tripId": 2,
+      "id": 8
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:49.572Z",
+      "tripId": 2,
+      "id": 9
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:49.716Z",
+      "tripId": 2,
+      "id": 10
+    },
+    {
+      "title": "No Title",
+      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
+      "startDate": "2018-10-04T22:22:49.868Z",
+      "tripId": 2,
+      "id": 11
+    }
+  ],
   "notes": []
 }
