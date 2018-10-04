@@ -14,6 +14,8 @@ const trips = _.times(100, () => {
     return {
         id: faker.random.uuid(),
         title: faker.lorem.sentence(5),
+        description: faker.lorem.sentence(5),
+        image: faker.image.city() + `?${faker.random.uuid()}`,
         people: _.uniq(_.times(faker.random.number({ min: 1, max: 5 }),
             () => {
                 return faker.random.arrayElement(people).id
@@ -29,6 +31,8 @@ const destinations = _.flatMap(trips, trip => {
             return {
                 id: faker.random.uuid(),
                 title: faker.address.city(),
+                description: faker.lorem.sentence(5),
+                image: faker.image.city() + `?${faker.random.uuid()}`,
                 startDate: faker.date.future(1),
                 tripId: trip.id,
             }
