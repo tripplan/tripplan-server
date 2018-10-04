@@ -1,11 +1,23 @@
 {
-    "people": [
-        {
-            "id": "EL_ID_DE_CARLOS_BAUTE",
-            "name": "Carlos Baute"
-        }
-    ],
-    "trips": [],
-    "destinations": [],
-    "notes": []
+  "people": [
+    {
+      "id": "EL_ID_DE_CARLOS_BAUTE",
+      "name": "Carlos Baute"
+    }
+  ],
+  "trips": [
+    {
+      "title": "A TITLE !",
+      "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2016622/rs_1024x759-160722115725-1024.Emma-Stone-Accutaine-Skin-Story.jl.072116.jpg?fit=inside|900:auto&output-quality=90",
+      "people": [
+        "EL_ID_DE_CARLOS_BAUTE"
+      ],
+      "id": 1,
+      "destinations": [],
+      "content": "A DESCRIPTION",
+      "description": "asda as dasd adsa dasd asdas d"
+    }
+  ],
+  "destinations": [],
+  "notes": []
 }
