@@ -10,7 +10,8 @@
       "title": "A TITLE !",
       "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2016622/rs_1024x759-160722115725-1024.Emma-Stone-Accutaine-Skin-Story.jl.072116.jpg?fit=inside|900:auto&output-quality=90",
       "people": [
-        "EL_ID_DE_CARLOS_BAUTE"
+        "EL_ID_DE_CARLOS_BAUTE",
+        "10216327659199502"
       ],
       "id": 1,
       "destinations": [],
@@ -26,139 +27,58 @@
       "id": 2
     },
     {
-      "title": "No Title",
+      "title": "EL_ID_DE_CARLOS_BAUTE",
       "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
       "people": [
-        "10216327659199502"
+        "EL_ID_DE_CARLOS_BAUTE"
       ],
       "id": 3
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "people": [
-        "10216327659199502"
-      ],
-      "id": 4
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "people": [
-        "10216327659199502"
-      ],
-      "id": 5
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "people": [
-        "10216327659199502"
-      ],
-      "id": 6
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "people": [
-        "10216327659199502"
-      ],
-      "id": 7
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "people": [
-        "10216327659199502"
-      ],
-      "id": 8
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "people": [
-        "10216327659199502"
-      ],
-      "id": 9
     }
   ],
   "destinations": [
     {
+      "people": [
+        "EL_ID_DE_CARLOS_BAUTE",
+        "10216327659199502"
+      ],
       "title": "No Title",
       "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:48.290Z",
-      "tripId": 2,
-      "id": 1
+      "startDate": "2018-10-05T09:39:57.223Z",
+      "tripId": 1,
+      "id": 12
     },
     {
+      "people": [
+        "EL_ID_DE_CARLOS_BAUTE",
+        "10216327659199502"
+      ],
       "title": "No Title",
       "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:48.466Z",
-      "tripId": 2,
-      "id": 2
+      "startDate": "2018-10-05T09:40:01.295Z",
+      "tripId": 1,
+      "id": 13
     },
     {
+      "people": [
+        "EL_ID_DE_CARLOS_BAUTE",
+        "10216327659199502"
+      ],
       "title": "No Title",
       "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:48.634Z",
-      "tripId": 2,
-      "id": 3
+      "startDate": "2018-10-05T09:41:56.581Z",
+      "tripId": 1,
+      "id": 14
     },
     {
+      "people": [
+        "EL_ID_DE_CARLOS_BAUTE",
+        "10216327659199502"
+      ],
       "title": "No Title",
       "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:48.794Z",
-      "tripId": 2,
-      "id": 4
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:48.958Z",
-      "tripId": 2,
-      "id": 5
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:49.116Z",
-      "tripId": 2,
-      "id": 6
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:49.276Z",
-      "tripId": 2,
-      "id": 7
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:49.420Z",
-      "tripId": 2,
-      "id": 8
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:49.572Z",
-      "tripId": 2,
-      "id": 9
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:49.716Z",
-      "tripId": 2,
-      "id": 10
-    },
-    {
-      "title": "No Title",
-      "image": "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180",
-      "startDate": "2018-10-04T22:22:49.868Z",
-      "tripId": 2,
-      "id": 11
+      "startDate": "2018-10-05T09:42:33.704Z",
+      "tripId": 1,
+      "id": 15
     }
   ],
   "notes": []

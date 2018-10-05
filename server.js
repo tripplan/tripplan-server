@@ -1,8 +1,10 @@
 // server.js
 require("dotenv").config()
+const _ = require("lodash")
 const jsonServer = require("json-server")
 const app = jsonServer.create()
 const router = jsonServer.router("db.json")
+const db = router.db
 const middlewares = jsonServer.defaults()
 
 var passport = require("passport")
@@ -54,7 +56,11 @@ passport.deserializeUser(function(obj, cb) {
 // logging, parsing, and session handling.
 app.use(require("cookie-parser")())
 app.use(
-    require("express-session")({ secret: "keyboard cat", resave: true, saveUninitialized: true })
+    require("express-session")({
+        secret: "keyboard cat dsasffs",
+        resave: true,
+        saveUninitialized: true
+    })
 )
 
 // Initialize Passport and restore authentication state, if any, from the
@@ -62,21 +68,46 @@ app.use(
 app.use(passport.initialize())
 app.use(passport.session())
 
-app.get("/login", passport.authenticate("facebook"), function(req, res) {
-    res.redirect(`${process.env.CLIENT_URL}${req.params.redirect}`)
-})
+const redirectBack = function(req, res) {
+    const url = `${process.env.CLIENT_URL}${req.params.redirect || ""}`
+    console.log(url)
+    res.redirect(url)
+}
 
-app.get("/login/return", passport.authenticate("facebook"), function(req, res) {
-    res.redirect(process.env.CLIENT_URL)
-})
+const logOut = (req, res, next) => {
+    req.logOut()
+    next()
+}
+
+app.get("/login", passport.authenticate("facebook"), redirectBack)
+app.get("/login/return", passport.authenticate("facebook"), redirectBack)
 
 app.use(middlewares)
 app.use("/", require("connect-ensure-login").ensureLoggedIn())
 app.get("/profile", (req, res) => res.send(req.user))
-app.get('/logout', function(req, res){
-  req.logout();
-  res.send("Logged Out")
-});
+app.get("/logout", logOut, redirectBack)
+
+app.use("/:collection/:id?", function(req, res, next) {
+    const collections = ["trips", "destinations", "notes"]
+    const { collection, id } = req.params
+    if (collections.includes(collection)) {
+        const userId = _.get(req, "user.id", undefined)
+        req.query["people_like"] = userId
+        if (id) {
+            const { people = [] } = db.get(collection).find({id})
+            if (people.includes(userId)) {
+                next()
+            } else {
+                res.send("401")
+            }
+        } else {
+            next()
+        }
+    } else {
+        next()
+    }
+})
+
 app.use(router)
 
 app.listen(3000, () => console.log("Listening 3000"))
